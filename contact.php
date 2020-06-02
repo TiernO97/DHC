@@ -12,8 +12,7 @@
    $message = $_POST['message'];
    $id = $_SESSION['user_session'];
 
-   $crud->insertContact($name, $email, $number, $message, $id);
-   header("Location: index.php");
+   $crud->insertContact($name, $email, $number, $message);
  }
 ?>
 
