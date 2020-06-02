@@ -1,0 +1,141 @@
+#heading {
+	text-align: center;
+}
+.form_bg {
+	width: 60%;
+    background-color: #99a1a9;
+    padding: 20px;
+	margin: auto;
+}
+ /*Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-name {
+	padding: 10px 10px 10px 50px;
+	width:60%;
+}
+input[type=submit] {
+  background-color: white;
+  border: none;
+  outline: none;
+  color: blue;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+    color:white;
+  background:#666;
+}*
+input[type=text], select, textarea {
+    width: 60%x;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	float:right;
+}
+.login-block {
+    width: 320px;
+    padding: 20px;
+    background:  #D1D1D1;
+    border-radius: 5px;
+    border-top: 5px solid #D1D1D1;
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#username {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background-size: 16px 80px;
+	border: 1px solid #000;
+}
+
+.login-block input#username:focus {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background-size: 16px 80px;
+	border: 1px solid #000;
+}
+
+.login-block input#password:focus {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+    background-size: 16px 80px;]
+
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #D1D1D1;
+}
+
+.login-block button {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #000;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-block button:hover {
+    background: #68a7ea;
+}
+.footer  {
+	width: 100%;
+}
+
+#wrapper{
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:2px solid #fff;
+    background-color:#f9f9f9;
+    width:600px;
+    overflow:hidden;
+}
+
+#content{
+    margin:15px auto;
+    text-align:center;
+    width:80%;
+    position:relative;
+    height:100%;
+}
+
+#clickable {
+	cursor: pointer;
+}
